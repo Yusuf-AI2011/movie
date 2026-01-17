@@ -1,4 +1,5 @@
-let api = `http://www.omdbapi.com/?s=shrek&apikey=3e658e50`;
+let api = `https://www.omdbapi.com/?s=shrek&apikey=3e658e50`;
+let check = 0;
 const search = document.querySelector(".search");
 const cards = document.querySelector(".cards");
 const loading = document.querySelector(".loading");
